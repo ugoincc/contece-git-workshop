@@ -16,8 +16,6 @@ int total_alunos = 0;
 
 void adicionar_aluno();
 
-
-int main() {
     int opcao;
 
     do {

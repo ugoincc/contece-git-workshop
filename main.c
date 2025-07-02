@@ -3,7 +3,7 @@
 #include <string.h>
 
 #define MAX_ALUNOS 50
-#define MAX_NOME 50
+
 
 typedef struct {
     char nome[MAX_NOME];
@@ -15,7 +15,7 @@ Aluno lista_de_alunos[MAX_ALUNOS];
 int total_alunos = 0;
 
 void adicionar_aluno();
-void listar_alunos();
+
 
 int main() {
     int opcao;
@@ -35,11 +35,6 @@ int main() {
             case 2:
                 listar_alunos();
                 break;
-            case 0:
-                printf("Saindo do sistema...\n");
-                break;
-            default:
-                printf("Opcao invalida! Tente novamente.\n");
         }
     } while (opcao != 0);
 

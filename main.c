@@ -16,6 +16,7 @@ int total_alunos = 0;
 
 void adicionar_aluno() {
     if (total_alunos >= MAX_ALUNOS) {
+
         printf("Erro: Lista de aslkdlkasdlkaslkasldklkasdsa cheia!\n");
         return;
     }

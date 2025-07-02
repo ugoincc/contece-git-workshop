@@ -19,20 +19,11 @@ void adicionar_aluno();
     int opcao;
 
     do {
-        printf("\n--- SISTEMA DE CADASTRO DE ALUNOS ---\n");
-        printf("1. Adicionar Aluno\n");
-        printf("2. Listar Alunos\n");
-        printf("0. Sair\n");
-        printf("Escolha uma opcao: ");
-        scanf("%d", &opcao);
-
         switch (opcao) {
             case 1:
                 adicionar_aluno();
                 break;
-            case 2:
-                listar_alunos();
-                break;
+
         }
     } while (opcao != 0);
 
